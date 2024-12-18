@@ -5,7 +5,6 @@
 *.dylib
 *.test
 *.out
-alternative_config.json
 
 # Build directories
 _build/
