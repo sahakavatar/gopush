@@ -1,0 +1,34 @@
+{
+  "redis": {
+    "nodes": [
+      {
+        "address": "127.0.0.1:6379",
+        "password": null
+      }
+    ],
+    "channels_pattern": "test-*"
+  },
+  "server": {
+    "host": "0.0.0.0:9000",
+    "port": "6001",
+    "protocol": "ws",
+    "ws_url": "/ws",
+    "tls": {
+      "Enabled": true,
+      "cert_file": "/path/to/your_file.pem",
+      "key_file": "/path/to/your_file.pem"
+    },
+    "authorize": {
+      "url": "http://your-domain/verify-token",
+      "timeout": 5000,
+      "cache_time_out": 3600
+    },
+    "health_check_url": "/health"
+  },
+  "logging": {
+    "level": "info",
+    "file": "/var/log/websocket-server.log"
+  },
+  "environment": "locale"
+}
+

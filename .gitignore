@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+alternative_config.json
+
+# Build directories
+_build/
+build/
+bin/
+dist/
+key.pem
+cert.pem
+# Configuration files
+*.local
+.env
+
+# Logs
+*.log
+
+# Cache and metadata
+*.DS_Store
+*.cache
+*.lock
+*.log
+
+# IDE/editor specific files
+/.idea
+*.iml
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Dependency directories (if not vendored)
+vendor/
+Gopkg.lock
+Gopkg.toml
+
+
+# Test results
+*.test
+
+# Generated files (e.g., Swagger)
+docs/
